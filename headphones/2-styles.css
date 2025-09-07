@@ -1,0 +1,212 @@
+/* Copy everything from 1-styles.css first */
+/* Navbar (same as 0-styles.css) */
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  z-index: 10;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+
+/* Our Results Section */
+.our-results {
+  padding: 80px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.our-results h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.our-results .intro {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ddd;
+}
+.our-results {
+  padding: 80px 20px;
+  text-align: center;
+  color: #fff;
+
+  /* ✅ Add background */
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+              url('images/headphones_hero_1.jpg') center/cover no-repeat;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  justify-content: center;
+}
+/* Reusable container */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Our Results Section */
+.our-results {
+  padding: 80px 20px;
+  text-align: center;
+  color: #fff;
+
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+              url('images/our-results-bg.jpg') center/cover no-repeat;
+}
+
+.our-results h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.our-results .intro {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #ddd;
+}
+/* Reusable container */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* What We Do Section */
+.what-we-do {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #fff; /* stays white background like 1-index.html */
+  color: #000;
+}
+
+.what-we-do h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.what-we-do .intro {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.feature {
+  max-width: 250px;
+  text-align: center;
+}
+
+.feature span {
+  font-size: 3rem;
+  color: #ff4d4d;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.feature h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #ff4d4d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+.stat {
+  text-align: center;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid #ff4d4d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.stat p {
+  font-size: 1rem;
+  color: #ddd;
+}
